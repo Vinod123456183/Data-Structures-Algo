@@ -12,3 +12,7 @@ int main(){
     if(count==1) cout<<1;
     else cout<<count<<endl;
 }
+
+// Method 2 Convert no to string and return its lenght
+    string s= to_string(741);
+    cout<<s.length();
